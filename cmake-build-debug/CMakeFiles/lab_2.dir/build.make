@@ -53,10 +53,10 @@ RM = /snap/clion/169/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/alex/CLionProjects/PPvIS/lab 2"
+CMAKE_SOURCE_DIR = "/home/alex/CLionProjects/Vera/lab 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab_2.dir/depend.make
@@ -68,29 +68,29 @@ include CMakeFiles/lab_2.dir/flags.make
 
 CMakeFiles/lab_2.dir/main.cpp.o: CMakeFiles/lab_2.dir/flags.make
 CMakeFiles/lab_2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_2.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab_2.dir/main.cpp.o -c "/home/alex/CLionProjects/PPvIS/lab 2/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab_2.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab_2.dir/main.cpp.o -c "/home/alex/CLionProjects/Vera/lab 2/main.cpp"
 
 CMakeFiles/lab_2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alex/CLionProjects/PPvIS/lab 2/main.cpp" > CMakeFiles/lab_2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alex/CLionProjects/Vera/lab 2/main.cpp" > CMakeFiles/lab_2.dir/main.cpp.i
 
 CMakeFiles/lab_2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alex/CLionProjects/PPvIS/lab 2/main.cpp" -o CMakeFiles/lab_2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alex/CLionProjects/Vera/lab 2/main.cpp" -o CMakeFiles/lab_2.dir/main.cpp.s
 
 CMakeFiles/lab_2.dir/Clothes.cpp.o: CMakeFiles/lab_2.dir/flags.make
 CMakeFiles/lab_2.dir/Clothes.cpp.o: ../Clothes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab_2.dir/Clothes.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab_2.dir/Clothes.cpp.o -c "/home/alex/CLionProjects/PPvIS/lab 2/Clothes.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab_2.dir/Clothes.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab_2.dir/Clothes.cpp.o -c "/home/alex/CLionProjects/Vera/lab 2/Clothes.cpp"
 
 CMakeFiles/lab_2.dir/Clothes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab_2.dir/Clothes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alex/CLionProjects/PPvIS/lab 2/Clothes.cpp" > CMakeFiles/lab_2.dir/Clothes.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/alex/CLionProjects/Vera/lab 2/Clothes.cpp" > CMakeFiles/lab_2.dir/Clothes.cpp.i
 
 CMakeFiles/lab_2.dir/Clothes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab_2.dir/Clothes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alex/CLionProjects/PPvIS/lab 2/Clothes.cpp" -o CMakeFiles/lab_2.dir/Clothes.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/alex/CLionProjects/Vera/lab 2/Clothes.cpp" -o CMakeFiles/lab_2.dir/Clothes.cpp.s
 
 # Object files for target lab_2
 lab_2_OBJECTS = \
@@ -103,8 +103,12 @@ lab_2_EXTERNAL_OBJECTS =
 lab_2: CMakeFiles/lab_2.dir/main.cpp.o
 lab_2: CMakeFiles/lab_2.dir/Clothes.cpp.o
 lab_2: CMakeFiles/lab_2.dir/build.make
+lab_2: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
+lab_2: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
+lab_2: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
+lab_2: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 lab_2: CMakeFiles/lab_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -116,6 +120,6 @@ CMakeFiles/lab_2.dir/clean:
 .PHONY : CMakeFiles/lab_2.dir/clean
 
 CMakeFiles/lab_2.dir/depend:
-	cd "/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/alex/CLionProjects/PPvIS/lab 2" "/home/alex/CLionProjects/PPvIS/lab 2" "/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug" "/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug" "/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug/CMakeFiles/lab_2.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/alex/CLionProjects/Vera/lab 2" "/home/alex/CLionProjects/Vera/lab 2" "/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug" "/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug" "/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug/CMakeFiles/lab_2.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/lab_2.dir/depend
 

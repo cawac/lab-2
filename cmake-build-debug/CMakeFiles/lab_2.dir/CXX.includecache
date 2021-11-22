@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/alex/CLionProjects/PPvIS/lab 2/Clothes.cpp
-Clothes.h
-/home/alex/CLionProjects/PPvIS/lab 2/Clothes.h
-
-/home/alex/CLionProjects/PPvIS/lab 2/Clothes.h
+/home/alex/CLionProjects/Vera/lab 2/Clothes.h
 iostream
 -
 string
+-
+
+/home/alex/CLionProjects/Vera/lab 2/main.cpp
+Clothes.h
+/home/alex/CLionProjects/Vera/lab 2/Clothes.h
+SFML/Graphics.hpp
 -
 

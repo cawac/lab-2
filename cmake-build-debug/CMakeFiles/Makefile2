@@ -54,10 +54,10 @@ RM = /snap/clion/169/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/alex/CLionProjects/PPvIS/lab 2"
+CMAKE_SOURCE_DIR = "/home/alex/CLionProjects/Vera/lab 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/lab_2.dir/clean
 CMakeFiles/lab_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab_2.dir/build.make CMakeFiles/lab_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target lab_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target lab_2"
 .PHONY : CMakeFiles/lab_2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lab_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lab_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/lab_2.dir/rule
 
 # Convenience name for target.

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alex/CLionProjects/PPvIS/lab 2/Clothes.cpp" "/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug/CMakeFiles/lab_2.dir/Clothes.cpp.o"
-  "/home/alex/CLionProjects/PPvIS/lab 2/main.cpp" "/home/alex/CLionProjects/PPvIS/lab 2/cmake-build-debug/CMakeFiles/lab_2.dir/main.cpp.o"
+  "/home/alex/CLionProjects/Vera/lab 2/Clothes.cpp" "/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug/CMakeFiles/lab_2.dir/Clothes.cpp.o"
+  "/home/alex/CLionProjects/Vera/lab 2/main.cpp" "/home/alex/CLionProjects/Vera/lab 2/cmake-build-debug/CMakeFiles/lab_2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
